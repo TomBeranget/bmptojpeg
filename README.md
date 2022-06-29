@@ -9,6 +9,7 @@ Ces matrices 8x8 sont de la forme :
 np.array([[(1 + (1+i+j)*q) for j in range(8)] for i in range(8)])
 ```
 Donc pour `q = 2`, par exemple :
+
 ![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/matrix.PNG?raw=true)
 
 ## Résultat sur un échantillon
