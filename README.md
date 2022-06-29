@@ -24,5 +24,5 @@ En revanche, lors d'un zoom, on remarque qu'au delà de `q = 5`, on observe une 
 ### Le second exemple
 De la même manière, pour un rendu de l'image entière la compression est peu perceptible lorsque `q` reste raisonnable.
 ![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a_base.png?raw=true)
-En revanche il est évident, avec un zoom, qu'il y a des pertes d'informations :
+En revanche il apparait évident, avec un zoom, qu'il y a des pertes d'informations :
 ![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a_zoom.png?raw=true)
