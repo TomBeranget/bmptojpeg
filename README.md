@@ -21,3 +21,8 @@ Sur cette image de taille 256x256, on ne remarque presque pas les effets de la p
 ![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a2_base.png?raw=true)
 En revanche, lors d'un zoom, on remarque qu'au delà de `q = 5`, on observe une grande perte d'information jusqu'a repérer les matrices 8x8 utilisées lors de la compression.
 ![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a2_zoom.png?raw=true)
+### Le second exemple
+De la même manière, pour un rendu de l'image entière la compression est peu perceptible lorsque `q` reste raisonnable.
+![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a_base.png?raw=true)
+En revanche il est évident, avec un zoom, qu'il y a des pertes d'informations :
+![matrice](https://github.com/TomBeranget/bmptojpeg/blob/main/pictures/a_zoom.png?raw=true)
